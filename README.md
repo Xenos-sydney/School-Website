@@ -1,2 +1,2 @@
-# School-Website
-A look alike website of KNUST
+# Hotel Services
+Hotel Reservations for guests in dubai 
