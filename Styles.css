@@ -1,0 +1,210 @@
+   /*
+COLORS
+
+--color-Primary: #eb2f64
+--color-Primary light: #FF3366
+--color-Primary dark: #BA265D
+
+--Grey-light-1: #faf9f9
+--Grey-light-2: #f4f2f2
+--Grey-light-3: #f0eeee
+--Grey-light-4: #ccc
+
+--Grey-dark -: #333
+--Grey-dark -: #777
+--Grey-dark -: #999
+
+*/
+
+:root{
+    --color-Primary: #eb2f64;
+    --color-Primary-light: #FF3366;
+    --color-Primary-dark: #BA265D;
+    
+    --Grey-light-1: #faf9f9;
+    --Grey-light-2: #f4f2f2;
+    --Grey-light-3: #f0eeee;
+    --Grey-light-4: #ccc;
+    
+    --Grey-dark-1: #333;
+    --Grey-dark-2: #777;
+    --Grey-dark-3: #999;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-image: linear-gradient(to right bottom, var(--color-Primary),var(--color-Primary-dark),var(--color-Primary-light));
+    background-repeat: no-repeat;
+    height: 170vh;
+    padding: 100px;
+    }
+
+*::before
+*::after{ 
+margin: 0;
+padding: 0;
+box-sizing:initial;
+}
+
+.container{ background-color: #ffff;
+            position: center;
+        }
+
+.search-container{ justify-self: center;
+                   align-items:end;
+                   border-radius: 3px;
+                   background: #f4f2f2;
+                   border-radius: 50px;
+                   box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+                }  
+.search-input{ border: none;
+               outline: none;
+               padding: 10px 15px;
+               border-radius: 50px;
+               width: 250px;
+               font-size: 16px;
+            }
+
+.search-button{ background:#007BFF;
+                color: white;
+                border: none;
+                padding: 10px 15px;
+                border-radius: 50px;
+                cursor: pointer;
+                font-size: 16px;
+                margin-left: 5px;
+            }
+      
+.navbar {
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+          background: #333;
+          padding: 15px 30px;
+        } 
+
+.sidebar{ width: 100px;
+          height: 700px ;
+          display: flex;
+          justify-content: left;
+          flex-direction: column;
+          background:#333;
+          padding: 20px 20px;
+          text-decoration: wavy;
+        }
+
+
+.sites{ display:flex;
+        gap: 0px; 
+        justify-content: flex-start;       
+      }
+      
+.content{ width:85% ;
+          flex-grow: 1; 
+        }
+
+.text{   margin-top: 20px;
+    text-align: center;
+    font-size: 16px;       
+          }
+.work{ display: flex;
+       align-items: flex-start;}
+
+.logo {
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    margin: 2px;
+}
+
+.Avatar {
+            width: 60px;
+            height: 60px;
+            border-radius: 50%; 
+            margin: 4px;
+            border: 3px solid #2104c9;    
+        }
+        
+.top{ display: flex;
+      gap:900px; }
+
+.texts{ text-align: center;}     
+
+.text{ border-radius: 5px;
+       height: 300px;
+       width: 250px;
+       padding: 20px;
+      background-color: #f0eeee;
+     margin: 5px;
+     justify-content: left;
+    }      
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.sidebar-links{ list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    text-decoration: wavy;
+    padding: 4px;
+    }
+
+.nav-links li {
+    display: inline;
+}
+
+.sidebar-links a { 
+    text-decoration: wavy;
+    color: white;
+    font-size: 16px;
+    padding: 10px 15px;
+    transition: background 0.3s;
+}
+
+.nav-links a {
+    text-decoration: wavy;
+    color: white;
+    font-size: 16px;
+    padding: 10px 15px;
+    transition: background 0.3s;
+}
+
+.sidebar-links a:hover {
+    background: #e20981;
+    border-radius: 5px;
+}
+
+.nav-links a:hover {
+    background: #daf108;
+    border-radius: 5px;
+}
+
+main {
+    text-align: center;
+    margin-top: 50px;
+}
+
+@media only screen and (max-width:800px) {
+    
+    body {
+      width: 80%;
+      padding: 0;
+    }
+}
+
+  @media only screen and (max-width:500px) {
+    body {
+      width: 80%;
+      padding: 0;
+    }
+}
+.Cocky{ background-color: coral;
+        display:flex;}
